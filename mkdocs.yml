@@ -37,6 +37,7 @@ pages:
     - Deliverability: setup/civimail/deliverability.md
   - Payment processors:
     - Payment processors: setup/payment-processors/index.md
+    - Recurring Payments: setup/payment-processors/recurring.md
     - Authorize.net: setup/payment-processors/authorize-net.md
     - Card Access: setup/payment-processors/card-access.md
     - First Data: setup/payment-processors/first-data.md
@@ -48,6 +49,7 @@ pages:
     - PayPal Pro and Express: setup/payment-processors/paypal-pro.md
     - Ogone: setup/payment-processors/ogone.md
   - Detailed logging: setup/logging.md
+  - Optimizations: setup/optimizations.md
 - Upgrades:
   - Upgrades: upgrade/index.md
   #- Upgrade in Drupal 8: upgrade/drupal8.md
@@ -63,22 +65,23 @@ pages:
   #- Other languages: customize/i18n.md
   - Override settings: customize/settings.md
   #- Custom development: customize/develop.md
-- Integration:
+- CMS Integration:
   - Drupal integration:
-    - Drupal integration: integration/drupal/index.md
+    - Drupal Users, Roles and Groups integration: integration/drupal/index.md
     - Drupal views: integration/drupal/views.md
     - Webform: integration/drupal/webform.md
-    - CiviGroup Roles Sync: integration/drupal/group-roles.md
-    - CiviMember Roles Sync: integration/drupal/member-roles.md
     - WYSIWYG integration: integration/drupal/wysiwyg.md
     - Bootstrap CSS: integration/drupal/bootstrap-css.md
     - Mailhandler: integration/drupal/mailhandler.md
     - Incompatible modules: integration/drupal/incompatibilities.md
-  #- Backdrop integration:
-    #- Backdrop integration: integration/backdrop/index.md
+  - Backdrop integration:
+    - Backdrop Users, Roles and Groups integration: integration/backdrop/index.md
+    - Backdrop Views: integration/backdrop/views.md
+    - Webform: integration/backdrop/webform.md
   - WordPress integration:
     - WordPress integration: integration/wordpress/index.md
     - Forms in WordPress: integration/wordpress/forms.md
+    - Plugin Integration: integration/wordpress/plugins.md
     - Incompatible plugins: integration/wordpress/incompatibilities.md
   - Joomla integration:
     - Joomla integration: integration/joomla/index.md
